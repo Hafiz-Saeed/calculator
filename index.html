@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png"
+    href="https://icon-library.com/images/calculator-icon-png/calculator-icon-png-19.jpg">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="result">
+
+            <button onclick="clearBox()">AC</button>
+            <button onclick="removela()">DEL</button>
+            <button onclick="displayNumber('%')">%</button>
+            <button onclick="displayNumber('/')" class="division">&#xF7; </button>
+            <button onclick="displayNumber(7)">7</button>
+            <button onclick="displayNumber(8)">8</button>
+            <button onclick="displayNumber(9)">9</button>
+            <button onclick="displayNumber('*')">x</button>
+            <button onclick="displayNumber(4)">4</button>
+            <button onclick="displayNumber(5)">5</button>
+            <button onclick="displayNumber(6)">6</button>
+            <button onclick="displayNumber('-')" style="font-size: 23px;">-</button>
+            <button onclick="displayNumber(1)">1</button>
+            <button onclick="displayNumber(2)">2</button>
+            <button onclick="displayNumber(3)">3</button>
+            <button onclick="displayNumber('+')" style="font-size: 20px;">+</button>
+            <button onclick="displayNumber('.')" style="font-size: 23px;">.</button>
+            <button onclick="displayNumber(0)">0</button>
+            <button onclick="Evaluate()" class="equal" style="font-size: 20px;">=</button>
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
